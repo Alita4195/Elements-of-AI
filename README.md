@@ -24,7 +24,8 @@ likelyhood ratio r=P(word ∣ spam)÷P(word ∣ ham)<br>
 if odds=x:y,the probability=x÷(x+y)
 Posterior Odds=Prior Odds×Likelihood Ratio
 ​
-
+## Chapter 3 Machine learning
+### section 1 Linear regression
 
 
 
