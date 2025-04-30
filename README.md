@@ -10,7 +10,20 @@ Greedy solutions/simulated annealing<br>
 prob = exp(-(S_old - S_new)/T)<br>
 As (S_old - S_new)/T increases, the probability is degreasing. 
 ## Chapter 2 Dealing with uncertainty
-Conditional probabilities
+### section 1 Conditional probabilities
+### section 2 Bayes Rule
+🧠
+P(A∣B)= P(B∣A)*P(A)/P(B)
+
+P(A | B) — the posterior: probability of A given B<br>
+P(B | A) — the likelihood: probability of B given A<br>
+P(A) — the prior: how likely A is before seeing any data<br>
+P(B) — the evidence: how likely B is overall<br>
+### section 2 Naive Bayes classifier
+likelyhood ratio r=P(word ∣ spam)÷P(word ∣ ham)<br>
+if odds=x:y,the probability=x÷(x+y)
+Posterior Odds=Prior Odds×Likelihood Ratio
+​
 
 
 
