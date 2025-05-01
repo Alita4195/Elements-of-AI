@@ -27,6 +27,7 @@ Posterior Odds=Prior Odds×Likelihood Ratio
 ## Chapter 3 Machine learning
 ### Section 1 Linear regression
 Least Squares Method<br>
+### Section 2 The nearest neighbor method
 
 
 
