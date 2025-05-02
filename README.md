@@ -28,6 +28,10 @@ Posterior Odds=Prior Odds×Likelihood Ratio
 ### Section 1 Linear regression
 Least Squares Method<br>
 ### Section 2 The nearest neighbor method
+```
+D = math.sqrt((x_hel - x_ny)**2 + (y_hel - y_ny)**2)
+```
+
 
 
 
