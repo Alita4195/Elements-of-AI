@@ -32,8 +32,11 @@ Least Squares Method<br>
 D = math.sqrt((x_hel - x_ny)**2 + (y_hel - y_ny)**2)
 ```
 ### Section 3 Natural language processing(NLP)
+Term Frequency-Inverse Document Frequency.<br> 
+The logic behind it is it places less weight on frequent words such as on, the, is etc.<br> 
 
-
+tf−idf=tf×log(1÷df)<br> 
+The document frequency of a word is the number of documents that contain at least one occurrence of the word.
 
 
 

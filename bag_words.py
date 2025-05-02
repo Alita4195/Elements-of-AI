@@ -20,7 +20,6 @@ def distance(row1, row2):
 def all_pairs(data):
     # this calls the distance function for all the two-row combinations in the data
     # you do not need to change this
-    dist = [[distance(sent1, sent2) for sent1 in data] for sent2 in data]
-    print(dist)
+    dist = [[distance(sent1, sent2) for sent1 in data] for sent2 in data] 
 
 all_pairs(data)
