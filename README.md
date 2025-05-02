@@ -31,6 +31,7 @@ Least Squares Method<br>
 ```
 D = math.sqrt((x_hel - x_ny)**2 + (y_hel - y_ny)**2)
 ```
+### Section 3 Natural language processing(NLP)
 
 
 

@@ -15,10 +15,7 @@ X = MinMaxScaler().fit_transform(X)
 # split two data points from the data as test data and
 # use the remaining n-2 points as the training data
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=2)
-# print(X_train)
-# print(X_test)
-# print(y_train)
-# print(y_test) 
+# print(y_test)
 
 
 
@@ -52,7 +49,7 @@ def main(X_train, X_test, y_train, y_test):
         nearest = np.argmin(distances)
 
         # create a line connecting the points for the chart
-        lines.append(np.stack((test_item, X_train[nearest])))
+        lines.append(np.stack((test_item, X_train[nearest]))) #this is for the visualization, does not affect the results.
 
         # add your code here:
         y_predict[i]=y_train[nearest]          
