@@ -37,6 +37,9 @@ The logic behind it is it places less weight on frequent words such as on, the, 
 
 tf−idf=tf×log(1÷df)<br> 
 The document frequency of a word is the number of documents that contain at least one occurrence of the word.
+### Section 4 Overfitting
+leave-one-out cross-validation<br> 
+Splitting the data into n different sets, and train the model n times – each time with a different combination of n - 1 sets, with the remaining set being used as a test set. 
 
-
-
+## Chapter 4 Neural networks
+### Section 1 Logistic regression
