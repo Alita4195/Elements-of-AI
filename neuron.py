@@ -30,7 +30,7 @@ y = np.array([335800., 379100., 118950., 247200., 107950., 266550.,  75850.,
 
 
 def hidden_activation(z):
-    return np.maximum(0, z)
+    return np.maximum(0, z) # ReLU (Rectified Linear Unit) activation function
 
 def output_activation(z):
     # identity (linear) activation. fix this!

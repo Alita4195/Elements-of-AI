@@ -48,5 +48,13 @@ s(z)=1÷(1+exp(−z))<br>
 note: z is input number.<br> 
 Application: modeling factors affect voting decisions.Marketing, who will click an ad. <br>
 ### Section 2 From logistic regression to neural networks
-neural network-node
-
+neural network<br>
+Input-hidden layer-output
+### Section 3 Deep learning
+Convolutional neural networks<br>
+Recurrent neural networks (RNNs) :feedback loops<br>
+Transformer networks
+## Chapter 5 Conclusion
+### Section 1 Summary
+Using AI technology to make a world a better place.<br>
+My AI idea<br>
