@@ -43,3 +43,10 @@ Splitting the data into n different sets, and train the model n times – each t
 
 ## Chapter 4 Neural networks
 ### Section 1 Logistic regression
+First linear function then the results pass through the sigmoid function<br> 
+s(z)=1÷(1+exp(−z))<br> 
+note: z is input number.<br> 
+Application: modeling factors affect voting decisions.Marketing, who will click an ad. <br>
+### Section 2 From logistic regression to neural networks
+neural network-node
+
